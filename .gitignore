@@ -1,0 +1,18 @@
+# Ignore build directories
+bin/
+obj/
+
+# Ignore Visual Studio temporary files, caches, and settings
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore NCrunch files
+.NCrunch_*
+UserRegistration.v3.ncrunchsolution
+
+# Optionally ignore other common files
+*.tmp
+*.log

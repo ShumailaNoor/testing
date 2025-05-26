@@ -31,7 +31,7 @@ namespace UserRegistrations
         [Test]
         public void Register_WithShortPassword_ReturnsFalse()
         {
-            var user = new User { username = "Ali", password = "123" };
+            var user = new User { username = "Ali", password = "123321" };
             var result = service.Register(user);
             Assert.IsFalse(result);
         }

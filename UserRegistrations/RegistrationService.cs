@@ -8,7 +8,7 @@
             {
                 return false;
             }
-            if (string.IsNullOrWhiteSpace(user.password) || user.password.Length <= 6)
+            if (string.IsNullOrWhiteSpace(user.password) || user.password.Length < 6)
             {
                 return false;
             }
